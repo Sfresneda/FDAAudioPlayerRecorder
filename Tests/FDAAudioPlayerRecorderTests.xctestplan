@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "6A1F5B88-4035-4DE1-8A44-144FC95DC7FB",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:",
+      "identifier" : "FDAAudioPlayerRecorder",
+      "name" : "FDAAudioPlayerRecorder"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "FDAAudioPlayerRecorderTests",
+        "name" : "FDAAudioPlayerRecorderTests"
+      }
+    }
+  ],
+  "version" : 1
+}
